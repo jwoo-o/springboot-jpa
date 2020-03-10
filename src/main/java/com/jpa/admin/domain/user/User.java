@@ -7,9 +7,10 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 
-@Entity
-@NoArgsConstructor
+
 @Getter
+@NoArgsConstructor
+@Entity
 public class User extends BaseTimeEntity {
 
     @Id
